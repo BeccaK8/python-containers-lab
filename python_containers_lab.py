@@ -52,3 +52,11 @@ for index, student in enumerate(students):
 
 for student in cohort:
     print(f"{student['student']} - {student['fav_food']}")
+
+
+# Exercise 7
+print( "\nExercise 7: \n")
+
+awesome_students = [s + " is awesome!" for s in students]
+for student in awesome_students:
+    print(student)
