@@ -19,3 +19,15 @@ print( "\nExercise 3: \n")
 
 for food in foods[3:]:
     print(food)
+
+
+# Exercise 4
+print( "\nExercise 4: \n")
+
+home_town = {
+    'city': 'West Burlington',
+    'state': 'Iowa',
+    'population': 3000
+}
+
+print( f"I was born in {home_town['city']}, {home_town['state']} - population of {home_town['population']}" )
