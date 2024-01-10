@@ -60,3 +60,10 @@ print( "\nExercise 7: \n")
 awesome_students = [s + " is awesome!" for s in students]
 for student in awesome_students:
     print(student)
+
+
+# Exercise 8
+print( "\nExercise 8: \n")
+
+for food in [ f for f in foods if f.find("a") > -1]:
+    print(food)
