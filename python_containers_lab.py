@@ -38,3 +38,17 @@ print( "\nExercise 5: \n")
 
 for key, val in home_town.items():
     print( f"{key} = {val}")
+
+
+# Exercise 6
+print( "\nExercise 6: \n")
+
+cohort = []
+for index, student in enumerate(students):
+    student_food = {}
+    student_food['student'] = student
+    student_food['fav_food'] = foods[index]
+    cohort.append(student_food)
+
+for student in cohort:
+    print(f"{student['student']} - {student['fav_food']}")
