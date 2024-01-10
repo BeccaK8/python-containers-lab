@@ -13,3 +13,9 @@ foods = ( 'Steak', 'Green beans', 'Liver', 'Spaghetti', 'Cookies' )
 for food in foods:
     print( f"{food} is a good food" )
 
+
+# Exercise 3
+print( "\nExercise 3: \n")
+
+for food in foods[3:]:
+    print(food)
